@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nuel - Portfolio</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="icon" href="baru.png" />
+  </head>
+  <body>
+    <nav>
+      <img src="baru.png" />
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About page</a></li>
+        <li><a href="myholiday.html">Holiday</a></li>
+        <li><a href="Registration.html">Registration</a></li>
+      </ul>
+    </nav>
+
+    <section>
+      <div class="s-container">
+        <div class="content">
+          <span class="subtitle">Hello</span>
+          <h1 class="title">
+            I'm <span>Emmanuel Ruicosta Sitorus<br /></span>
+          </h1>
+
+          <h1>
+            <p class="description">
+              Welcome to my design portfolio! I'm Nuel, and I am cureently a
+              student at Universitas Advent Indonesia, persuing a degree in
+              Sistem Informasi.
+            </p>
+          </h1>
+        </div>
+        <div class="image">
+          <img src="nuel.png" alt="pfp" class="responsive-img" />
+        </div>
+      </div>
+    </section>
+  </body>
+  <script>
+    const btn = document.getElementById("btn");
+    btn.addEventListener("click", () => {
+      document.querySelector("header ul").classList.toggle("show");
+    });
+  </script>
+</html>
